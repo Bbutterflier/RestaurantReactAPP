@@ -3,6 +3,9 @@ Restaurant is an ecommerce website built using React, Redux integrated with Node
 
 
 
+The app is responsive (suitable for different screen sizes - phone, tablet, etc.)
+![mamas restaurant](website.gif "mamas restaurant")
+
 ## Pages
 Home page `/home`:
     * Welcome home page.
@@ -68,3 +71,15 @@ Home page `/home`:
 * Get gallery images (Simulates database access) - GET `/api/gallery`
    
 * Serves react client static files - GET `*`
+
+## Prerequisites
+1. Git
+2. Node v10.16.1
+3. A fork/clone of this repo
+
+## Installation
+1. In react-restaurant-website directory run in terminal: `npm run app`
+2. Open http://localhost:3005
+
+## Testing
+1. In project directory run in terminal: `npm test`
